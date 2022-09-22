@@ -1,0 +1,113 @@
+  /*Simple Image Effects*/
+  img.image{
+    width: 100%;
+    display:inline-block;
+    align-self:center;
+    text-align:center;
+  }
+  .original{
+    filter:brightness(100%) contrast(100%) saturate(100%) brightness(100%);
+  }
+  .black-and-white{
+    filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+  }
+  
+  .sepia{
+    filter:saturate(0%) sepia(100%) contrast(150%) saturate(150%);
+  }
+  
+  .warm{
+    filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-15deg);
+  }
+  
+  .cold{
+    filter: hue-rotate(180deg) sepia(75%) contrast(150%) saturate(300%) hue-rotate(180deg);
+  }
+  
+  .tint-green{
+    filter: hue-rotate(-30deg) sepia(75%) contrast(150%) saturate(300%) hue-rotate(30deg);
+  }
+  
+  .tint-magenta{
+    filter: hue-rotate(-270deg) sepia(55%) contrast(150%) saturate(300%) hue-rotate(270deg);
+  }
+  .change-mouth-btn{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .row{
+    margin: 0;
+  }
+  /*Old Paper Overlay*/
+  .old-paper{
+    /* width:100%;
+    height: 100%; */
+    width:631px;
+    height: 631px;
+  }
+  .original-image{
+    width:100%;
+    height: auto;
+    width:631px;
+    height: 631px;
+    position:absolute;
+    left: 0;
+    top : 0;
+  }
+  .thought-image{
+    width:230px;
+    height: 230px;
+    position:absolute;
+    left: 0;
+  }
+  .thought-text{
+    width:230px;
+    height: 230px;
+    position:absolute;
+    left: 0;
+    padding-top: 80px;
+  }
+  .Zindex1{
+    z-index: 1;
+  }
+  .Zindex2{
+    z-index: 2;
+  }
+  .Zindex3{
+    z-index: 3;
+  }
+  .Zindex4{
+    z-index: 4;
+  }
+  .Zindex5{
+    z-index: 5;
+  }
+  .Zindex6{
+    z-index: 6;
+  }
+  .Zindex7{
+    z-index: 7;
+  }
+  .Zindex8{
+    z-index: 8;
+  }
+  .Zindex9{
+    z-index: 9;
+  }
+  .overlay{
+    mix-blend-mode:multiply;
+    position:absolute;
+    display:inline-block;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+  }
+  
+  .overlay img{
+    width:100%;
+    height:100%;
+  }
+  
+  .btn{
+    margin: 5%;
+  }
